@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juegos Divertidos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Juegos Divertidos</h1>
+    </header>
+
+    <div class="container">
+        <h2>Lista de Juegos</h2>
+        <ul class="game-list">
+            <li class="game-item">
+                <button class="game-link" id="gunSpin">Gun Spin</button>
+            </li>
+            <li class="game-item">
+                <button class="game-link" id="game2">Juego 2</button>
+            </li>
+            <li class="game-item">
+                <button class="game-link" id="game3">Juego 3</button>
+            </li>
+        </ul>
+
+        <!-- Área donde el juego será mostrado -->
+        <div id="gameContainer" class="game-container">
+            <!-- Aquí va el iframe del juego -->
+            <iframe id="gameFrame" src="" width="800" height="600" frameborder="0" scrolling="none" style="display:none;"></iframe>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Juegos Divertidos. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
