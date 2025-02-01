@@ -1,0 +1,15 @@
+document.getElementById('gunSpin').addEventListener('click', function() {
+    // Cambiar el src del iframe para cargar el juego de Gun Spin
+    document.getElementById('gameFrame').src = 'https://html5.gamedistribution.com/917cce8c44c44638a8cdc2a1794b65c8/?gd_sdk_referrer_url=https://www.minijuegos.com/juego/gun-spin'; // Reemplaza con la URL correcta del juego
+    document.getElementById('gameFrame').style.display = 'block'; // Muestra el iframe con el juego
+});
+
+document.getElementById('game2').addEventListener('click', function() {
+    document.getElementById('gameFrame').src = 'https://html5.gamedistribution.com/917cce8c44c44638a8cdc2a1794b65c8/?gd_sdk_referrer_url=https://www.minijuegos.com/juego/juego-2'; // Reemplaza con la URL del segundo juego
+    document.getElementById('gameFrame').style.display = 'block';
+});
+
+document.getElementById('game3').addEventListener('click', function() {
+    document.getElementById('gameFrame').src = 'https://html5.gamedistribution.com/917cce8c44c44638a8cdc2a1794b65c8/?gd_sdk_referrer_url=https://www.minijuegos.com/juego/juego-3'; // Reemplaza con la URL del tercer juego
+    document.getElementById('gameFrame').style.display = 'block';
+});
